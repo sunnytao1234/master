@@ -1,0 +1,6 @@
+diskmark:
+  version: CrystalDiskMark8_0_2
+lan:
+  linux_lib_iperf: libiperf0_3.1.3-1_amd64.deb
+  linux_iperf: iperf3_3.1.3-1_amd64.deb
+  win_iperf: iperf3.exe

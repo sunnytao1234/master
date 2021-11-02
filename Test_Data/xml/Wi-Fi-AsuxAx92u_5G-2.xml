@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>AsuxAx92u_5G-2</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>4173757841783932755F35472D32</hex>
+			<name>AsuxAx92u_5G-2</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB01000000B5118F7D66605D4EB00CF8CA9A413D63000000000200000000001066000000010000200000005A773FB8C7888AB27422B90405C8180392D8A03D21483573F54F8F64B174452E000000000E800000000200002000000049AE2A0679A699787183F88A6980ABB64B5553C38FC1BA2B3BF861A4EA3830D21000000011F404C489498D85031D04CEB5396CC440000000C22EEC7107BA65B7CF321611F78A5A6FD5BC6CC3939AAA93F233F915B1257C8F9B1020A7E24845E47139A9B53AB6F00976271D023093DFC8ABA295171BBF3133</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>3366865252</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>

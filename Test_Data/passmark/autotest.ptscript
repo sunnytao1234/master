@@ -1,0 +1,8 @@
+#clear old results
+CLEARRESULTS
+#run tests
+RUN ALL
+#export results
+EXPORTTEXTF "C:/passmark_results.txt" HIDEBASELINES
+#exit
+EXIT

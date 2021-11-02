@@ -1,0 +1,14 @@
+item:
+  - storage: Finished
+  - lan: Finished
+  - cold_boot: Finished
+  - reboot: Finished
+  - wlan: Norun
+      router: xxxxxx
+      settings:
+        - 24G_802.11n: [CH-3_BW-20, CH-11_BW-4]
+        - 24G_802.11ax: [CH-5_BW-20_40]
+        - 5G_802.11n: [CH-153_BW-20, CH-157_BW-4]
+        - 24G_802.11n: [CH-153_BW-20, CH-11_BW-4]
+        - 24G_802.11n: [CH-3_BW-20, CH-11_BW-4]
+tester: balance.cheng@hp.com

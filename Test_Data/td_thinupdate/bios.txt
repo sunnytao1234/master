@@ -1,0 +1,746 @@
+BIOSConfig 1.0
+;
+;     Originally created by BIOS Configuration Utility
+;     Version: 4.0.26.1
+;     Date="2021/09/09" Time="16:33:34" UTC="8"
+;
+;     Found 242 settings
+;
+Product Name
+	HP EliteBook 840 G5
+Processor 1 Type
+	Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz
+Processor 1 Speed
+	2500 MHz
+Processor 1 Cores
+	2
+Processor 1 Cache Size (L1/L2/L3)
+	128 KB / 512 KB / 3 MB
+Processor 1 MicroCode Revision
+	CA
+Processor 1 Stepping
+	9
+Processor 1 Bottom-Slot 1(left)
+	Empty
+Processor 1 Bottom-Slot 2(right)
+	8 GB Hynix/Hyundai
+Serial Number
+	5CG83995LX
+SKU Number
+	4CR20UC#B1L
+Universally Unique Identifier (UUID)
+	0412E95CC4F56941DAAE0F96B5EA5726
+Memory Size
+	8192 MB
+Storage Devices
+	MTFDDAV256TBN-1AR15ABHA-      UGXVR01J1AXSLI (256 GB)
+System Board CT Number
+	PGWHN00WBBD4UV
+Primary Battery Serial Number
+	02587 2018/08/14
+Product Family
+	103C_5336AN HP EliteBook
+MS Digital Marker
+	010000000000000001000000000000001D00000050424637472D51584E46472D444A4448592D33345058592D4854395450
+System BIOS Version
+	Q78 Ver. 01.10.01  03/02/2020
+BIOS Build Version
+	0000
+ME Firmware Version
+	11.8.70.3626
+ME Firmware Mode
+	Enable
+Audio Controller
+	Conexant CX7750
+Video BIOS Version
+	Intel(R) GOP Driver [9.0.1071]
+Reference Code Revision
+	3.7.5.0
+Embedded Controller Firmware Version
+	04.65.00
+USB Type-C Controller(s) Firmware Version:
+	CCG5 : 7.10.0
+Born On Date
+	00/00/0000
+System Board ID
+	83B2
+Integrated MAC Address 1
+	84-A9-3E-44-05-13
+Custom Logo
+	*Not Present
+	Present
+Asset Tracking Number
+	5CG83995LX
+Ownership Tag
+	
+Feature Byte
+	3X476J6S6b7B7H7M7Q7W7m7saBaEaYapaqauawbUbhcAdUdpdqgdhk.ED
+Build ID
+	17WWCSBT601#SB1L#DB1L
+Lock BIOS Version
+	*Disable
+	Enable
+Native OS Firmware Update Service
+	Disable
+	*Enable
+BIOS Rollback Policy
+	*Unrestricted Rollback to older BIOS
+	Restricted Rollback to older BIOS
+Minimum BIOS Version
+	00.00.00
+Clear BIOS Event Log
+	*Don't Clear
+	Clear
+Manufacturing Programming Mode
+	Unlock
+	*Lock
+Password Minimum Length
+	8
+At least one symbol is required in Administrator and User passwords
+	*No
+	Yes
+At least one number is required in Administrator and User passwords
+	*No
+	Yes
+At least one upper case character is required in Administrator and User passwords
+	*No
+	Yes
+At least one lower case character is required in Administrator and User passwords
+	*No
+	Yes
+Are spaces allowed in Administrator and User passwords?
+	*No
+	Yes
+Prompt for Admin password on F9 (Boot Menu)
+	*Disable
+	Enable
+Prompt for Admin password on F11 (System Recovery)
+	*Disable
+	Enable
+Prompt for Admin password on F12 (Network Boot)
+	*Disable
+	Enable
+Prompt for Admin password on Capsule Update
+	*Disable
+	Enable
+BIOS Administrator visible at Power-on Authentication
+	Disable
+	*Enable
+TPM Specification Version
+	2.0
+TPM Device
+	Hidden
+	*Available
+TPM State
+	Disable
+	*Enable
+Clear TPM
+	*No
+	On next boot
+TPM Activation Policy
+	F1 to Boot
+	Allow user to reject
+	*No prompts
+Verify Boot Block on every boot
+	*Disable
+	Enable
+BIOS Data Recovery Policy
+	*Automatic
+	Manual
+Prompt on Network Controller Configuration Change
+	*Disable
+	Enable
+Dynamic Runtime Scanning of Boot Block
+	Disable
+	*Enable
+Sure Start BIOS Settings Protection
+	*Disable
+	Enable
+Sure Start Secure Boot Keys Protection
+	Disable
+	*Enable
+Enhanced HP Firmware Runtime Intrusion Prevention and Detection
+	Disable
+	*Enable
+Sure Start Security Event Boot Notification
+	Time out after 15 seconds
+	*Require Acknowledgment
+Sure Start Security Event Policy
+	Log Event Only
+	*Log Event and notify user
+	Log Event and power off system
+HP Sure Run Current State
+	Inactive
+Permanently Disable HP Sure Run (Set Once)
+	*No
+	Yes
+Secure Platform Management Current State
+	Not provisioned
+Physical Presence Interface
+	Disable
+	*Enable
+Save/Restore GPT of System Hard Drive
+	*Disabled
+	Enabled
+Save/Restore MBR of System Hard Drive
+	*Disable
+	Enable
+DriveLock Enabled Drives
+	
+Secure Erase Hard Disk Serial Number
+	
+Secure Erase Hard Disk Model Number
+	
+Secure Erase Completion Date
+	
+Secure Erase Completion Status
+	
+Allow OPAL Hard Drive SID Authentication
+	*Disable
+	Enable
+Permanent Disable Absolute Persistence Module Set Once
+	*No
+	Yes
+Absolute Persistence Module Current State
+	*Inactive
+	Active
+System Management Command
+	Disable
+	*Enable
+SureStart Production Mode
+	Disable
+	*Enable
+Fingerprint Reset on Reboot
+	*Disable
+	Enable
+Boot Sector (MBR/GPT) Recovery Policy
+	*Local user control
+	Recover in event of corruption
+Host Based MAC Address
+	Disable
+	*System
+	Custom
+HBMA Factory MAC Address
+	84-A9-3E-44-05-15
+HBMA System MAC Address
+	84-A9-3E-44-05-15
+HBMA Custom MAC Address
+	00-00-00-00-00-00
+Pre-boot HBMA Support
+	Disable
+	*Enable
+Windows HBMA Support
+	Disable
+	*Enable
+Single NIC Operation (Disable All Other NICs when HBMA is active on one NIC)
+	*Disable
+	Enable
+Reuse Embedded LAN Address
+	*Disable
+	Enable
+HBMA Priority List
+	USB NIC Dongle:HP External Adapter :0BDA_8153
+	USB NIC Dongle:HP USB-C Travel Dock :17E9_4352
+	USB NIC Dongle:HP USB Travel Dock :17E9_4351
+	USB NIC Dongle:HP 3005pr :17E9_430A
+	USB NIC Dongle:HP Universal pr :17E9_4327
+	Thunderbolt Dock:HP Elite Dock :14E4_1682:14E4_1682
+	Embedded NIC:Intel (vPro) :8086_15D7:103C_83B2(Disabled)
+Select Language
+	*English
+	Deutsch
+	Espanol
+	Italiano
+	Francais
+	Japanese
+	Portugues
+	Dansk
+	Svenska
+	Nederlands
+	Norsk
+	Suomi
+	Simplified Chinese
+	Traditional Chinese
+	Russian
+Select Keyboard Layout
+	*English
+	Deutsch
+	Espanol
+	Italiano
+	Francais
+	Japanese
+	Portugues
+	Dansk
+	Svenska
+	Nederlands
+	Norsk
+	Suomi
+	Simplified Chinese
+	Traditional Chinese
+	Russian
+Sunday
+	*Disable
+	Enable
+Monday
+	*Disable
+	Enable
+Tuesday
+	*Disable
+	Enable
+Wednesday
+	*Disable
+	Enable
+Thursday
+	*Disable
+	Enable
+Friday
+	*Disable
+	Enable
+Saturday
+	*Disable
+	Enable
+BIOS Power-On Hour
+	0
+BIOS Power-On Minute
+	0
+Power On When AC Detected
+	*Disable
+	Enable
+Power On When Lid is Opened
+	*Disable
+	Enable
+Startup Delay (sec.)
+	*0
+	5
+	10
+	15
+	20
+	25
+	30
+	35
+	40
+	45
+	50
+	55
+	60
+Fast Boot
+	*Disable
+	Enable
+Audio Alerts During Boot
+	Disable
+	*Enable
+NumLock on at boot
+	*Disable
+	Enable
+Prompt on Memory Size Change
+	Disable
+	*Enable
+USB Storage Boot
+	Disable
+	*Enable
+Network (PXE) Boot
+	Disable
+	*Enable
+Prompt on Fixed Storage Change
+	*Disable
+	Enable
+Prompt on Battery Errors
+	Disable
+	*Enable
+Legacy Boot Options
+	*Disable
+	Enable
+Legacy Boot Order
+	<no legacy boot options available>
+UEFI Boot Options
+	Disable
+	*Enable
+UEFI Boot Order
+	HDD:USB:1
+	HDD:SATA:1
+	NETWORK IPV4:EMBEDDED:1
+	NETWORK IPV6:EMBEDDED:1
+HP_Disk0MapForUefiBootOrder
+	PciRoot(0x0)/Pci(0x14,0x0)
+	PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x2,0x0,0x0)/HD(2,GPT,9BF60B5E-B0C6-4B07-A925-CF3381B28D67,0xFA800,0xF9800)/\EFI\Microsoft\Boot\bootmgfw.efi
+	PciRoot(0x0)/Pci(0x1F,0x6)/MAC(84A93E440513,0x0)/IPv4(0.0.0.0,0x0,DHCP,0.0.0.0,0.0.0.0,0.0.0.0)
+	PciRoot(0x0)/Pci(0x1F,0x6)/MAC(84A93E440513,0x0)/IPv6(0000:0000:0000:0000:0000:0000:0000:0000,0x0,Static,0000:0000:0000:0000:0000:0000:0000:0000,0x40,0000:0000:0000:0000:0000:0000:0000:0000)
+Smart Card Power Savings
+	Disable
+	*Enable
+Launch Hotkeys without Fn Keypress
+	Disable
+	Enable
+	*Auto
+Power Control
+	*Disable
+	Enable
+Swap Fn and Ctrl (Keys)
+	*Disable
+	Enable
+Fast Charge
+	Disable
+	*Enable
+USB Type-C Connector System Software Interface (UCSI)
+	Disable
+	*Enable
+Enable High Resolution mode when connected to a USB-C DP alt mode dock
+	*Disable
+	Enable
+Special Keys mapped to Fn + keypress
+	Disable
+	*Enable
+Lock Wireless Button
+	*Disable
+	Enable
+Fan Always on while on AC Power
+	*Disable
+	Enable
+Wake on LAN on DC mode
+	*Disable
+	Enable
+Wake on WLAN
+	*Disable
+	Enable
+Boost Converter
+	Disable
+	*Enable
+Backlit keyboard timeout
+	5 secs.
+	*15 secs.
+	30 secs.
+	1 min..
+	5 mins.
+	Never.
+Bluetooth
+	Disable
+	*Enable
+Wireless Network Device (WLAN)
+	Disable
+	*Enable
+LAN / WLAN Auto Switching
+	*Disable
+	Enable
+Configure Legacy Support and Secure Boot
+	Legacy Support Enable and Secure Boot Disable
+	*Legacy Support Disable and Secure Boot Enable
+	Legacy Support Disable and Secure Boot Disable
+Import Custom Secure Boot keys
+	*Do Nothing
+	On next boot
+Clear Secure Boot keys
+	*Disable
+	Enable
+Reset Secure Boot keys to factory defaults
+	*Disable
+	Enable
+Enable MS UEFI CA key
+	No
+	*Yes
+Ready to disable MS UEFI CA Key
+	Not Ready
+	*Ready
+Custom Keys Image Verification State
+	*No Custom Keys
+	Fail
+	Success
+Ready BIOS for Device Guard Use
+	*Do Nothing
+	Configure on Next Boot
+	Clear Configuration on Next Boot
+USB Type-C Controller Firmware Update
+	Disable
+	*Enable
+Enable Turbo Boost on DC
+	*Disable
+	Enable
+Dynamic Platform and Thermal Framework (DPTF)
+	Disable
+	*Enable
+HP Application Driver
+	*Disable
+	Enable
+Audio Device
+	Disable
+	*Enable
+Embedded LAN controller
+	Disable
+	*Enable
+Wake On LAN
+	Disabled
+	Boot to Network
+	*Boot to Hard Drive
+	Boot to Normal Boot Order
+Microphone
+	Disable
+	*Enable
+Internal Speakers
+	Disable
+	*Enable
+Runtime Power Management
+	Disable
+	*Enable
+Extended Idle Power States
+	Disable
+	*Enable
+Headphone Output
+	Disable
+	*Enable
+Wake when Lid is Opened
+	Disable
+	*Enable
+Battery Health Manager
+	Maximize my battery health
+	*Let HP manage my battery charging
+	Maximize my battery duration
+Wake When AC is Detected
+	*Disable
+	Enable
+Wake on USB
+	Disable
+	*Enable
+HP will balance your battery health and battery duration (read-only)
+	Enabled
+	*Enabled & Activated
+Disable Battery On Next Boot
+	*Do not disable
+	Next shut down
+Integrated Camera
+	Disable
+	*Enable
+Fingerprint Device
+	Disable
+	*Enable
+Battery Safety Mode
+	*Disable
+	Enable
+Video Memory Size
+	*32 MB
+	64 MB
+	128 MB
+	256 MB
+	512 MB
+Restrict USB Devices
+	*Allow all USB Devices
+	Allow only keyboard and mouse
+	Allow all but storage devices and hubs
+Docking USB Ports
+	Disable
+	*Enable
+USB Legacy Port Charging
+	Disable
+	*Enable
+Disable Charging Port in sleep/off if battery below (%):
+	10
+Left USB Ports
+	Disable
+	*Enable
+Right USB Ports
+	Disable
+	*Enable
+Smart Card
+	Disable
+	*Enable
+Thunderbolt Type-C Ports
+	Disable
+	*Enable
+Thunderbolt Security Level
+	*PCIe and DisplayPort - User Authorization
+	PCIe and DisplayPort - Secure Connect
+	DisplayPort and USB
+Thunderbolt PCIe Hot plug Mode
+	*Legacy Mode
+	Native + Low Power Mode
+Require BIOS PW to change TBT SL
+	Disable
+	*Enable
+Thunderbolt Mode
+	Disable
+	*Enable
+Configure Option ROM Launch Policy
+	All Legacy
+	*All UEFI
+	All UEFI Except Video
+Intel Software Guard Extensions (SGX)
+	Disable
+	Enable
+	*Software control
+Turbo-boost
+	Disable
+	*Enable
+Hyperthreading
+	Disable
+	*Enable
+Multi-processor
+	Disable
+	*Enable
+Virtualization Technology (VTx)
+	Disable
+	*Enable
+Virtualization Technology for Directed I/O (VTd)
+	Disable
+	*Enable
+Trusted Execution Technology (TXT)
+	*Disable
+	Enable
+Intel Management Engine (ME)
+	Disable
+	*Enable
+USB Key Provisioning Support
+	*Disable
+	Enable
+Unconfigure AMT on next boot
+	*Do Not Apply
+	Apply
+SOL Terminal Emulation Mode
+	*ANSI
+	VT100
+Verbose Boot Messages
+	*Disable
+	Enable
+Watchdog Timer
+	*Disable
+	Enable
+OS Watchdog Timer (min.)
+	*5
+	10
+	15
+	20
+	25
+BIOS Watchdog Timer (min.)
+	*5
+	10
+	15
+	20
+	25
+USB Redirection Support
+	Disable
+	*Enable
+Show Unconfigure ME Confirmation Prompt
+	Disable
+	*Enable
+Wireless Manageability
+	Disable
+	*Enable
+CIRA Timeout (min.)
+	*1 min
+	2 mins
+	3 mins
+	4 mins
+	Never
+Intel Active Management Technology (AMT)
+	Disable
+	*Enable
+Deep Sleep
+	Off
+	*On
+OS Recovery
+	Disable
+	*Enable
+Recover OS from Network
+	Disable
+	*Enable
+Recover OS after Boot Failure
+	Disable
+	*Enable
+Prompt before Boot Failure Recovery
+	Disable
+	*Enable
+OS Recovery Agent URL
+	http://ftp.hp.com/pub/pcbios/CPR
+OS Recovery Agent Username
+	
+OS Recovery Agent Provisioning Version
+	0
+OS Recovery Image URL
+	
+OS Recovery Image Username
+	
+OS Recovery Image Provisioning Version
+	0
+Update Source
+	*HP
+	Custom
+Automatically Check for Updates
+	Daily
+	Weekly
+	*Monthly
+Automatic BIOS Update Setting
+	*Disable
+	Let user decide whether to install updates
+	Install all updates automatically
+	Install only important updates automatically
+	Download and install normal BIOS updates automatically without prompts
+	Download and install important BIOS updates automatically without prompts
+Update Address
+	
+Force Check on Reboot
+	*Disable
+	Enable
+Update BIOS via Network
+	Disable
+	*Enable
+Use Proxy
+	*Disable
+	Enable
+Proxy Address
+	
+DNS Configuration
+	*Automatic
+	Manual
+DNS Addresses
+	
+Data transfer timeout
+	100
+IPv4 Address
+	
+IPv4 Configuration
+	*Automatic
+	Manual
+IPv4 Gateway
+	
+IPv4 Subnet Mask
+	
+Force HTTP no-cache
+	Disable
+	*Enable
+Force Default IP Configuration
+	*Disable
+	Enable
+Remote HP PC Hardware Diagnostics Custom Client Upload Url
+	
+Remote HP PC Hardware Diagnostics Use Custom Download Url
+	*Disable
+	Enable
+Remote HP PC Hardware Diagnostics Custom Client Download Url
+	
+Remote HP PC Hardware Diagnostics Scheduled Execution Enabled
+	*Disable
+	Enable
+Remote HP PC Hardware Diagnostics Scheduled Execution Frequency
+	Daily
+	*Weekly
+	Monthly
+Remote HP PC Hardware Diagnostics Last Execution Status
+	0
+Remote HP PC Hardware Diagnostics Last Execution Time Stamp
+	
+Remote HP PC Hardware Diagnostics Upload Server Username
+	
+Remote HP PC Hardware Diagnostics Upload Server Password
+	
+Remote HP PC Hardware Diagnostics Execute On Next Boot
+	*Disable
+	Enable
+E-label
+	Not Present
+	*Present
+Save Custom Defaults
+	*Do not Save
+	Save
+Apply Custom Defaults and Exit
+	*No
+	Yes
+Apply Factory Defaults and Exit
+	*No
+	Yes

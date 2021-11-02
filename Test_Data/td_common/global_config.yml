@@ -1,0 +1,138 @@
+log:
+  log_level: 4
+
+performance:
+  wes: 'Passmark10'
+  linux: 'Geekbench'
+storage:
+  wes: 'Diskmark'
+  linux: 'FIO Command'
+boot:
+  boot_wait_time: 120
+  manual_boot_list:
+    - MT32
+    - MT46
+  camera_device_index: 0
+  uut_broadcast: 15.83.247.127
+router:
+  # current below name is strictly the same as Router instance
+  # in coding, so do not change below name
+  - asux_ac87u
+  - asux_ax92u
+  - netgear_ax80
+
+router_support:
+  asux_ac87u:
+    class_name: AsuxAc87u
+    url: http://router.asus.com/Main_Login.asp
+    wifi_name: AsuxAc87u
+    wifi_password: AsuxAc87u
+    web_username: admin
+    web_password: Password123,.
+    support:
+      - band: 2.4g
+        wireless_mode: 802.11n
+        bandwidth: '20'
+        channel: '3'
+        title: '2.4g/CH-3/BW-20/802.11n'
+      - band: 2.4g
+        wireless_mode: 802.11n
+        bandwidth: '40'
+        channel: '11'
+        title: '2.4g/CH-11/BW-40/802.11n'
+      - band: 5g
+        wireless_mode: 802.11n
+        bandwidth: '20'
+        channel: '153'
+        title: '5g/CH-153/BW-20/802.11n'
+      - band: 5g
+        wireless_mode: 802.11n
+        bandwidth: '40'
+        channel: '157'
+        title: '5g/CH-157/BW-40/802.11n'
+      - band: 5g
+        wireless_mode: 802.11ac
+        bandwidth: '20'
+        channel: '153'
+        title: '5g/CH-153/BW-20/802.11ac'
+      - band: 5g
+        wireless_mode: 802.11ac
+        bandwidth: '40'
+        channel: '157'
+        title: '5g/CH-157/BW-40/802.11ac'
+      - band: 5g
+        wireless_mode: 802.11ac
+        bandwidth: '80'
+        channel: '157'
+        title: '5g/CH-157/BW-80/802.11ac'
+  asux_ax92u:
+    class_name: AsuxAx92u
+    url: http://router.asus.com/Main_Login.asp
+    wifi_name: AsuxAx92u
+    wifi_password: AsuxAx92u
+    web_username: admin
+    web_password: Password123,.
+    support:
+      - band: 5g-2
+        wireless_mode: 802.11ax
+        bandwidth: '160'
+        channel: '128'
+        title: '5g-2/CH-128/BW-160/802.11ax'
+      - band: 5g-2
+        wireless_mode: 802.11ax
+        bandwidth: '80'
+        channel: '157'
+        title: '5g-2/CH-157/BW-80/802.11ax'
+      - band: 5g-2
+        wireless_mode: 802.11ax
+        bandwidth: '40'
+        channel: '157'
+        title: '5g-2/CH-157/BW-40/802.11ax'
+      - band: 5g-2
+        wireless_mode: 802.11ax
+        bandwidth: '20'
+        channel: '157'
+        title: '5g-2/CH-157/BW-20/802.11ax'
+  netgear_ax80:
+    class_name: NetgearAx80
+    url: http://www.routerlogin.net/
+    wifi_name: NetgearAx80
+    wifi_password: NetgearAx80
+    web_username: admin
+    web_password: Password123,.
+    support:
+      - band: 2.4g
+        wireless_mode: 802.11ax
+        bandwidth: 20/40
+        channel: '5'
+        title: '2.4g/CH-5/BW-20/40/802.11ax'
+
+
+uut_information:
+  - os_info
+  - platform_info
+  - ml_info
+  - memory_info
+  - disk_info
+  - disk_pn
+  - bios_info
+  - cpu_info
+  - gpu_info
+  - main_board_info
+  - mac_info
+
+test_data:
+  performance_loop: 3
+  storage_loop: 3
+  lan_loop: 3
+  wlan_loop: 3
+  boot_loop: 3
+  reboot_loop: 3
+  thin_loop: 3
+  deviation: 0.05
+
+network:
+  gateway: 15.83.240.1
+
+port:
+  sending_appli_name: "CH34"

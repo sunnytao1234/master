@@ -1,0 +1,1 @@
+chmod 777 Test_Utility/Geekbench-5.2.0-Linux/geekbench5;chmod 777 Test_Utility/Geekbench-5.2.0-Linux/geekbench_x86_64;Test_Utility/Geekbench-5.2.0-Linux/geekbench5 -r gary.walker@hp.com W5Y42-LA44D-AC5ER-HJR5O-GW4HI-KYGLY-HZGYU-TOWDL-4GEB2<<EOF
